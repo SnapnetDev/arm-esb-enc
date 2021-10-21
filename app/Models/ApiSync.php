@@ -1,0 +1,2 @@
+<?php
+ namespace App\Models; use Illuminate\Database\Eloquent\Factories\HasFactory; use Illuminate\Database\Eloquent\Model; class ApiSync extends Model { use HasFactory; protected $u0 = array("\x6e\141\155\145", "\141\x70\x69\137\x69\x64", "\x73\164\157\162\145\x5f\x69\144", "\x70\151\x76\x6f\164", "\x66\162\x65\x71\x75\145\156\143\171\x5f\164\151\x6d\x65", "\x73\x74\x61\164\x75\x73"); protected $w1 = array("\x61\160\x69"); function api() { return $this->belongsTo(Api::class, "\x61\x70\x69\137\x69\144"); } } ?>
