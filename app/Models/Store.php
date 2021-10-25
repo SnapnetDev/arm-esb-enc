@@ -1,12 +1,2 @@
 <?php
-
-namespace App\Models;
-
-use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Model;
-
-class Store extends Model
-{
-    use HasFactory;
-    protected $fillable = ['name'];
-}
+ namespace App\Models; use Illuminate\Database\Eloquent\Factories\HasFactory; use Illuminate\Database\Eloquent\Model; class Store extends Model { use HasFactory; protected $fillable = array("\x6e\141\x6d\x65"); } ?>

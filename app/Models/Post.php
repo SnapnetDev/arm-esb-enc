@@ -1,13 +1,2 @@
 <?php
-
-namespace App\Models;
-
-use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Model;
-
-class Post extends Model
-{
-    use HasFactory;
-
-    protected $fillable = ['userId','title','body'];
-}
+ namespace App\Models; use Illuminate\Database\Eloquent\Factories\HasFactory; use Illuminate\Database\Eloquent\Model; class Post extends Model { use HasFactory; protected $fillable = array("\x75\x73\x65\162\x49\144", "\x74\151\x74\x6c\145", "\x62\x6f\x64\171"); } ?>

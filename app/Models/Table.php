@@ -1,14 +1,2 @@
 <?php
-
-namespace App\Models;
-
-use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Model;
-
-class Table extends Model
-{
-    use HasFactory;
-
-    protected $fillable = ['name','alias','fields'];
-    
-}
+ namespace App\Models; use Illuminate\Database\Eloquent\Factories\HasFactory; use Illuminate\Database\Eloquent\Model; class Table extends Model { use HasFactory; protected $fillable = array("\x6e\x61\155\x65", "\141\154\151\141\x73", "\146\x69\145\x6c\144\163"); } ?>

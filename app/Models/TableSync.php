@@ -1,25 +1,2 @@
 <?php
-
-namespace App\Models;
-
-use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Model;
-
-class TableSync extends Model
-{
-    use HasFactory;
-
-    protected $fillable = ['name','table_id','api_id','tracker_name',
-    'tracker_reset_value','chunk_size','frequency_time','status'];
-
-    protected $with = ['api','tableObject'];
-
-    function api(){
-        return $this->belongsTo(Api::class,'api_id');
-    }
-
-    function tableObject(){
-        return $this->belongsTo(Table::class,'table_id');
-    }
-
-}
+ namespace App\Models; use Illuminate\Database\Eloquent\Factories\HasFactory; use Illuminate\Database\Eloquent\Model; class TableSync extends Model { use HasFactory; protected $fillable = array("\x6e\x61\x6d\x65", "\164\141\142\154\x65\137\151\144", "\x61\x70\151\x5f\x69\x64", "\x74\162\x61\143\153\145\x72\x5f\x6e\141\x6d\145", "\164\x72\141\x63\153\x65\x72\x5f\162\145\163\x65\x74\x5f\166\141\154\165\145", "\143\150\x75\x6e\153\x5f\163\151\x7a\x65", "\x66\162\x65\x71\x75\x65\x6e\x63\x79\137\x74\x69\155\x65", "\x73\164\x61\164\x75\x73"); protected $with = array("\141\160\151", "\164\141\x62\x6c\145\117\142\152\x65\x63\164"); function api() { return $this->belongsTo(Api::class, "\x61\x70\151\137\x69\144"); } function tableObject() { return $this->belongsTo(Table::class, "\x74\141\x62\x6c\145\x5f\151\x64"); } } ?>

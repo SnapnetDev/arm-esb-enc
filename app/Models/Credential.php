@@ -1,2 +1,2 @@
 <?php
- namespace App\Models; use Illuminate\Database\Eloquent\Factories\HasFactory; use Illuminate\Database\Eloquent\Model; class Credential extends Model { use HasFactory; protected $d0 = array("\156\141\155\x65", "\x68\145\141\144\145\162\163"); } ?>
+ namespace App\Models; use Illuminate\Database\Eloquent\Factories\HasFactory; use Illuminate\Database\Eloquent\Model; class Credential extends Model { use HasFactory; protected $fillable = array("\x6e\141\155\x65", "\150\145\141\x64\145\x72\163"); } ?>
